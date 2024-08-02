@@ -5,7 +5,7 @@ import Theme from "@/components/shared/navbar/Theme";
 import Mobile from "@/components/shared/navbar/Mobile";
 import GlobalSearch from "@/components/shared/search/GlobalSearch";
 import LanguageSelector from "@/components/shared/navbar/LanguageSelector";
-import { useTranslation } from "react-i18next";
+
 const Navbar = () => {
   return (
     <nav className="flex-between background-light900_dark200 fixed z-50 w-full gap-5 p-6 shadow-light-300 dark:shadow-none sm:px-12">

@@ -19,7 +19,8 @@ import type { Metadata } from "next";
 export async function generateMetadata({
   params,
 }: Omit<URLProps, "searchParams">): Promise<Metadata> {
-  const user = await getUserById({ userId: params.id });
+  // Removed the unused user variable
+  await getUserById({ userId: params.id });
 
   return {
     title: `Profile`,
